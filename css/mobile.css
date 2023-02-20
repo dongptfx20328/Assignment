@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px) {
+  .image-nar-bar {
+    display: none;
+  }
+  .a-container {
+    display: block;
+    border: none;
+  }
+
+  #nav-bar div {
+    border-left: none;
+    border-right: none;
+  }
+  #nav-bar {
+    text-align: left;
+    padding-left: 30px;
+  }
+
+  #certificate img {
+    width: 50%;
+  }
+  .border-certificate-2 img {
+    border-left: none;
+  }
+  .border-certificate-2 .col-8 {
+    border-left: none;
+    padding-left: 20px;
+    border-bottom: 1px solid #d6c08d;
+  }
+  .border-certificate-3 .col-8 {
+    border-bottom: 1px solid #d6c08d;
+  }
+  .border-certificate-1 .col-8 {
+    border-bottom: 1px solid #d6c08d;
+  }
+  .border-certificate {
+    border-bottom: none;
+  }
+  .bg-grey {
+    background: none;
+  }
+  .bg-grey-container {
+    background: #f7f7f7;
+  }
+  .time-project {
+    width: fit-content;
+  }
+}

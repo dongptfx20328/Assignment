@@ -1,0 +1,30 @@
+@media screen and (max-width: 992px) {
+  .image-nar-bar {
+    display: none;
+  }
+  .p-container {
+    flex-basis: 5rem;
+  }
+
+  #nav-bar div {
+    border-right: 1px solid gray;
+  }
+
+  .flex-project {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+    border-top: 1px solid rgb(126, 120, 120);
+    border-bottom: 1px solid rgb(126, 120, 120);
+    height: auto;
+    align-items: center;
+    padding: 0px;
+  }
+  .Dev-project {
+    grid-area: 2/2/3/3;
+  }
+  /* .grid-tablet {
+/* #border-item-project {
+  padding: 0;
+} */
+}
